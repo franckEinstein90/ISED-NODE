@@ -1,7 +1,7 @@
 {
     "master" : {
         "name" : "Master",
-        "token" : "a9addedfbb32dfaf66639a47029137366038a055b7fcce738239f54cc93db907",
+        "token" : "*** NOT AVAILABLE IN THIS FILE / ASK YOUR 3SCALE ADMINISTRATOR ***",
         "tenants" : [
             { 
                 "id" : "1",
@@ -17,7 +17,7 @@
                 "id" : "2",
                 "name" : "Provider Name",
                 "visible" : true,
-                "access_token" : "ad572f6aa991d49aae778720c1b47a56a64a0b0705288dc59c4bd6eadf199389",
+                "access_token" : "*** NOT AVAILABLE IN THIS FILE / ASK YOUR 3SCALE ADMINISTRATOR ***",
                 "admin_domain" : "3scale-dev-admin.df24.ised-dev.openshiftapps.com",
                 "domain" : "3scale-dev.df24.ised-dev.openshiftapps.com",
                 "apis" : [
@@ -32,7 +32,7 @@
                 "id" : "6",
                 "name" : "ISED",
                 "visible" : true,
-                "access_token" : "fbe40456d5d83d9ae5f013f7a98c376fac73fd56169097e8c6e77272560b6005",
+                "access_token" : "*** NOT AVAILABLE IN THIS FILE / ASK YOUR 3SCALE ADMINISTRATOR ***",
                 "admin_domain" : "ised-admin.df24.ised-dev.openshiftapps.com",
                 "domain" : "ised.df24.ised-dev.openshiftapps.com",
                 "apis" : [
@@ -44,7 +44,7 @@
                 "id" : "10",
                 "name" : "Canada Revenue Agency",
                 "visible" : true,
-                "access_token" : "23984f40822e51fdf91512913833e7fcc5f348b1b912f663a5fdfb88ad8c2469",
+                "access_token" : "*** NOT AVAILABLE IN THIS FILE / ASK YOUR 3SCALE ADMINISTRATOR ***",
                 "admin_domain" : "canada-revenue-agency-admin.df24.ised-dev.openshiftapps.com",
                 "domain" :    "canada-revenue-agency.df24.ised-dev.openshiftapps.com", 
                 "apis" : [
@@ -60,7 +60,7 @@
                 "id" : "12",
                 "name" : "mynewtenant",
                 "visible" : true,
-                "access_token" : "159d79e9a9f49824dcd8dafaa89f9574281fdcf39b69e585e15e6e144a764ffa",
+                "access_token" : "*** NOT AVAILABLE IN THIS FILE / ASK YOUR 3SCALE ADMINISTRATOR ***",
                 "admin_domain" : "mynewtenant-admin.df24.ised-dev.openshiftapps.com",
                 "domain" : "mynewtenant.df24.ised-dev.openshiftapps.com", 
                 "apis" : [
@@ -71,7 +71,7 @@
                 "id" : "14",
                 "name" : "ESDC",
                 "visible" : true,
-                "access_token" : "cb51a5da62e3faa49567314e864e476622dbf52bd02f18d385de4b9aa59cbd12",
+                "access_token" : "*** NOT AVAILABLE IN THIS FILE / ASK YOUR 3SCALE ADMINISTRATOR ***",
                 "admin_domain" : "esdc-admin.df24.ised-dev.openshiftapps.com",
                 "domain" : "esdc.df24.ised-dev.openshiftapps.com", 
                 "apis" : [
@@ -79,7 +79,10 @@
                 ]
             },
             { 
-                "name" : "NSERC",                 "id" : "16",  "visible" : true,   "access_token" : "a6121a9416621e58962daec4202ad7706ff7041089f71f1aeec7cfc3146fed93",
+                "id" : "16",  
+                "name" : "NSERC",                 
+                "visible" : true,   
+                "access_token" : "*** NOT AVAILABLE IN THIS FILE / ASK YOUR 3SCALE ADMINISTRATOR ***",
                 "admin_domain" : "nserc-admin.df24.ised-dev.openshiftapps.com",
                 "domain" : "nserc.df24.ised-dev.openshiftapps.com", 
                 "apis" : [
@@ -90,7 +93,7 @@
                 "id" : "18",
                 "name" : "PSPC",
                 "visible" : true,
-                "access_token" : "f06167cf7cdbeeec4cb17fcbd04eedbe9e351407734f0fab66aaf19fc2625a52",
+                "access_token" : "*** NOT AVAILABLE IN THIS FILE / ASK YOUR 3SCALE ADMINISTRATOR ***",
                 "admin_domain" : "pspc-admin.df24.ised-dev.openshiftapps.com",
                 "domain" : "pspc.df24.ised-dev.openshiftapps.com", 
                 "apis" : [
