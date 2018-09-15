@@ -1,5 +1,5 @@
 var express = require('express');
-var cors = require('cors');
+//var cors = require('cors');
 
 var app = express();
 
@@ -11,7 +11,13 @@ var corsOptions = {
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE"
 };
 
-app.use(cors(corsOptions));
+//app.use(cors(corsOptions));
+
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 
 // allow serving of static files from the public directory
 app.use(express.static(__dirname + '/public'));
