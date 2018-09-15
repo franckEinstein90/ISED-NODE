@@ -7,17 +7,11 @@ var app = express();
 //app.use(cors());
 
 var corsOptions = {
-  origin: "*",
+  origin: "/df24\.ised-dev\.openshiftapps\.com$/",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE"
 };
 
-//app.use(cors(corsOptions));
-
-app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
+app.use(cors(corsOptions));
 
 // allow serving of static files from the public directory
 app.use(express.static(__dirname + '/public'));
