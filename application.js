@@ -4,14 +4,7 @@ var cors = require('cors');
 var app = express();
 
 // Enable CORS for all requests
-//app.use(cors());
-
-var corsOptions = {
-  origin: "/df24\.ised-dev\.openshiftapps\.com$/",
-  methods: "GET,HEAD,PUT,PATCH,POST,DELETE"
-};
-
-app.use(cors(corsOptions));
+app.use(cors());
 
 // allow serving of static files from the public directory
 app.use(express.static(__dirname + '/public'));
