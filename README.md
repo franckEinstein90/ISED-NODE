@@ -9,11 +9,18 @@
 NOTES:
 * Assumes NODE has been installed
 * Uses 'cors', 'body-parser', 'express', 'bluebird' node packages
-* This server runs on port 8001
+* This server runs on port 8080
 * The tokens 'serverdata.json' have been removed from this public file. 
+
+### serverdata.json
+
+Create a secret with a `serverdata.json`:
+```oc create secret generic serverdata --from-file=serverdata.json --type=opaque```
+
+Mount the secret in the `/data` directory.
 
 #### From the command line type:
 $ node application.js
 
 #### You should see a line as similar to the following:
-App started at: Tue Aug 28 2018 07:09:34 GMT-0500 (Central Daylight Time) on port: 8001
+App started at: Tue Aug 28 2018 07:09:34 GMT-0500 (Central Daylight Time) on port: 8080
