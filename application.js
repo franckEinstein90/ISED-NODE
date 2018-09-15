@@ -7,7 +7,7 @@ var app = express();
 //app.use(cors());
 
 var corsOptions = {
-  origin: /df24\.ised-dev\.openshiftapps\.com$/,
+  origin: "*",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE"
 };
 
