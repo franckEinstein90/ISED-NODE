@@ -7,7 +7,6 @@ var app = express();
 //app.use(cors());
 
 var corsOptions = {
-  http://3scale-portal.df24.ised-dev.openshiftapps.com
   origin: /df24\.ised-dev\.openshiftapps\.com$/,
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE"
 };
