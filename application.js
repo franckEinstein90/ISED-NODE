@@ -4,7 +4,15 @@ var cors = require('cors');
 var app = express();
 
 // Enable CORS for all requests
-app.use(cors());
+//app.use(cors());
+
+var corsOptions = {
+  http://3scale-portal.df24.ised-dev.openshiftapps.com
+  origin: /df24\.ised-dev\.openshiftapps\.com$/,
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE"
+};
+
+app.use(cors(corsOptions));
 
 // allow serving of static files from the public directory
 app.use(express.static(__dirname + '/public'));
