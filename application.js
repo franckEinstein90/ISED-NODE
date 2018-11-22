@@ -12,6 +12,8 @@ app.use(express.static(__dirname + '/public'));
 // serve requests using the following paths 
 app.use('/threescale', require('./lib/threescale.js')());
 
+app.use('/apidocs', require('./lib/apidocs.js')());
+
 // default port is 8001
 var port = process.env.FH_PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
 var host = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
