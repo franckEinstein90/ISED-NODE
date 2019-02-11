@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.static(__dirname + '/public'));
 
 // serve requests using the following paths 
-app.use('/threescale', require('./lib/threescale.js')());
+/*app.use('/threescale', require('./lib/threescale.js')());*/
 
 app.use('/apidocs', require('./lib/apidocs.js')());
 
