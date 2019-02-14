@@ -9,10 +9,10 @@ app.use(cors());
 // allow serving of static files from the public directory
 app.use(express.static(__dirname + '/public'));
 
-// serve requests using the following paths 
-/*app.use('/threescale', require('./lib/threescale.js')());*/
 
 app.use('/apidocs', require('./lib/apidocs.js')());
+
+app.use('/userinfo', require('./lib/userinfo.js')());
 
 // default port is 8001
 var port = process.env.FH_PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
