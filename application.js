@@ -14,7 +14,7 @@ app.use('/apidocs', require('./lib/apidocs.js')());
 
 app.use('/userinfo', require('./lib/userinfo.js')());
 
-app.use('/userinfotest', require('./lib/userinfotest.js')());
+
 
 // default port is 8001
 var port = process.env.FH_PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
