@@ -9,7 +9,8 @@
     "express": "^4.0.0",
     "request": "^2.40.0",
     "aws-sdk": "latest",
-    "memory-cache": "latest"
+    "memory-cache": "latest",
+    "asynch" : "latest"
   },
   "main": "application.js",
   "scripts": {
