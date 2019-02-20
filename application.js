@@ -14,6 +14,7 @@ app.use('/apidocs', require('./lib/apidocs.js')());
 
 app.use('/userinfo', require('./lib/userinfo.js')());
 
+// test e.p
 app.use('/apidocstest', require('./lib/apidocs_test.js')());
 
 
