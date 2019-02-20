@@ -14,6 +14,8 @@ app.use('/apidocs', require('./lib/apidocs.js')());
 
 app.use('/userinfo', require('./lib/userinfo.js')());
 
+app.use('/apidocstest', require('./lib/apidocs_test.js')());
+
 
 
 // default port is 8001
