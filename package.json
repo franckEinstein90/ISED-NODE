@@ -10,7 +10,8 @@
     "request": "^2.40.0",
     "aws-sdk": "latest",
     "memory-cache": "latest",
-    "async" : "latest"
+    "async" : "latest",
+    "request-promise":"latest"
   },
   "main": "application.js",
   "scripts": {
