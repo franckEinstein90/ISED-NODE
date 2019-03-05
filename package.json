@@ -11,7 +11,8 @@
     "aws-sdk": "latest",
     "memory-cache": "latest",
     "async" : "latest",
-    "request-promise":"latest"
+    "request-promise":"latest",
+    "xml2json" : latest
   },
   "main": "application.js",
   "scripts": {
