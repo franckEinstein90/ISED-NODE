@@ -12,7 +12,7 @@
     "memory-cache": "latest",
     "async" : "latest",
     "request-promise":"latest",
-    "xml2json" : latest
+    "xml2json" : "latest"
   },
   "main": "application.js",
   "scripts": {
