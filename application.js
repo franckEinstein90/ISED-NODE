@@ -1,6 +1,5 @@
 var express = require('express');
 var cors = require('cors');
-var cache = require('memory-cache');
 
 var app = express();
 
@@ -21,7 +20,7 @@ app.use('/apidocstest', require('./lib/apidocsTest.js')());
 
 
 
-var memCache = new cache.Cache();
+
 
 // default port is 8001
 var port = process.env.FH_PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
