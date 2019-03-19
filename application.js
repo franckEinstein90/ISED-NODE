@@ -21,7 +21,7 @@ app.use('/apidocstest', require('./lib/apidocsTest.js')());
 
 
 
-let memCache = new cache.Cache();
+var memCache = new cache.Cache();
 
 // default port is 8001
 var port = process.env.FH_PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
